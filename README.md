@@ -1,5 +1,7 @@
 ## 🚀 Getting Started
 
+> 🌐 Live Demo: 👉 [View](https://lunacalassignment22.netlify.app/)
+
 ### Prerequisites
 
 Make sure you have the following installed:
