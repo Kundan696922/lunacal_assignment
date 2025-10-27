@@ -13,7 +13,7 @@ Make sure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Kundan696922/lunacal_assignment.git
-   cd budgetwise
+   cd lunacal_assignment
    
 2. Install npm packages:
    ```bash
