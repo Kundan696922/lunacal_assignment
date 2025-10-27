@@ -1,0 +1,57 @@
+/* Body — Center wrapper */
+body {
+    background: #2e2e2e;
+    margin: 0;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+    /* Prevent white sides on scale */
+}
+
+/* Scale Container */
+.scale-wrapper {
+    width: 1728px;
+    /* original design size */
+    background: #2e2e2e;
+    transform-origin: top center;
+    margin: 0 auto;
+    /* center */
+}
+
+/* Large screens */
+@media (min-width: 1728px) {
+    .scale-wrapper {
+        transform: scale(1);
+    }
+}
+
+/* Laptop screens */
+@media (max-width: 1728px) and (min-width: 1280px) {
+    .scale-wrapper {
+        transform: scale(0.85);
+    }
+}
+
+/* iPad Landscape */
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .scale-wrapper {
+        transform: scale(0.75);
+    }
+}
+
+/* iPad Portrait */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .scale-wrapper {
+        transform: scale(0.45);
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .scale-wrapper {
+        transform: scale(0.40);
+    }
+}
